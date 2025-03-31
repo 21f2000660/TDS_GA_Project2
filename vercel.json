@@ -3,11 +3,7 @@
     "builds": [
         {
             "src": "api/index.py",
-            "use": "@vercel/python",
-            "config": {
-                "nodeVersion": "18.x",
-                "installCommand": "apt-get update && apt-get install -y python3-dev build-essential && pip install -r requirements.txt"
-            }
+            "use": "@vercel/python"
         }
     ],
     "routes": [
